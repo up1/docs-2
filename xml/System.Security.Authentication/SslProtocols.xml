@@ -2,6 +2,8 @@
   <TypeSignature Language="C#" Value="public enum SslProtocols" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SslProtocols extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Security.Authentication.SslProtocols" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SslProtocols" />
+  <TypeSignature Language="F#" Value="type SslProtocols = " />
   <AssemblyInfo>
     <AssemblyName>System.Net.Primitives</AssemblyName>
     <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -43,6 +45,8 @@
       <MemberSignature Language="C#" Value="Default" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Default = int32(240)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 240" Usage="System.Security.Authentication.SslProtocols.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -60,6 +64,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>240</MemberValue>
       <Docs>
         <summary>Specifies that either Secure Sockets Layer (SSL) 3.0 or Transport Layer Security (TLS) 1.0 are acceptable for secure communications</summary>
       </Docs>
@@ -68,6 +73,8 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="System.Security.Authentication.SslProtocols.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -86,6 +93,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>No SSL protocol is specified.</summary>
       </Docs>
@@ -94,6 +102,8 @@
       <MemberSignature Language="C#" Value="Ssl2" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Ssl2 = int32(12)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Ssl2" />
+      <MemberSignature Language="VB.NET" Value="Ssl2" />
+      <MemberSignature Language="F#" Value="Ssl2 = 12" Usage="System.Security.Authentication.SslProtocols.Ssl2" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -112,6 +122,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>12</MemberValue>
       <Docs>
         <summary>Specifies the SSL 2.0 protocol. SSL 2.0 has been superseded by the TLS protocol and is provided for backward compatibility only.</summary>
       </Docs>
@@ -120,6 +131,8 @@
       <MemberSignature Language="C#" Value="Ssl3" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Ssl3 = int32(48)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Ssl3" />
+      <MemberSignature Language="VB.NET" Value="Ssl3" />
+      <MemberSignature Language="F#" Value="Ssl3 = 48" Usage="System.Security.Authentication.SslProtocols.Ssl3" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -138,6 +151,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>48</MemberValue>
       <Docs>
         <summary>Specifies the SSL 3.0 protocol. SSL 3.0 has been superseded by the TLS protocol and is provided for backward compatibility only.</summary>
       </Docs>
@@ -146,6 +160,8 @@
       <MemberSignature Language="C#" Value="Tls" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Tls = int32(192)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Tls" />
+      <MemberSignature Language="VB.NET" Value="Tls" />
+      <MemberSignature Language="F#" Value="Tls = 192" Usage="System.Security.Authentication.SslProtocols.Tls" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -164,6 +180,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>192</MemberValue>
       <Docs>
         <summary>Specifies the TLS 1.0 security protocol. The TLS protocol is defined in IETF RFC 2246.</summary>
       </Docs>
@@ -172,6 +189,8 @@
       <MemberSignature Language="C#" Value="Tls11" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Tls11 = int32(768)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Tls11" />
+      <MemberSignature Language="VB.NET" Value="Tls11" />
+      <MemberSignature Language="F#" Value="Tls11 = 768" Usage="System.Security.Authentication.SslProtocols.Tls11" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -195,6 +214,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>768</MemberValue>
       <Docs>
         <summary>Specifies the TLS 1.1 security protocol. The TLS protocol is defined in IETF RFC 4346.</summary>
       </Docs>
@@ -203,6 +223,8 @@
       <MemberSignature Language="C#" Value="Tls12" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Security.Authentication.SslProtocols Tls12 = int32(3072)" />
       <MemberSignature Language="DocId" Value="F:System.Security.Authentication.SslProtocols.Tls12" />
+      <MemberSignature Language="VB.NET" Value="Tls12" />
+      <MemberSignature Language="F#" Value="Tls12 = 3072" Usage="System.Security.Authentication.SslProtocols.Tls12" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -226,6 +248,7 @@
       <ReturnValue>
         <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
       </ReturnValue>
+      <MemberValue>3072</MemberValue>
       <Docs>
         <summary>Specifies the TLS 1.2 security protocol. The TLS protocol is defined in IETF RFC 5246.</summary>
       </Docs>
