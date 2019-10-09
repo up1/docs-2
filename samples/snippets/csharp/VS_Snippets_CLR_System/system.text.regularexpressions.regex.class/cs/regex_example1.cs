@@ -19,18 +19,18 @@ public class Example
       // Get the currency symbol.
       pattern += Regex.Escape(nfi.CurrencySymbol) + @"?\s?";
       // Add integral digits to the pattern.
-      pattern += @"(\d*";
+      pattern += @"(\d*(";
       // Add the decimal separator.
       pattern += Regex.Escape(nfi.CurrencyDecimalSeparator) + "?";
       // Add the fractional digits.
       pattern += @"\d{";
       // Determine the number of fractional digits in currency values.
-      pattern += nfi.CurrencyDecimalDigits.ToString() + "}?){1}$";
+      pattern += nfi.CurrencyDecimalDigits.ToString() + "}?)?){1}$";
       
       Regex rgx = new Regex(pattern);
 
       // Define some test strings.
-      string[] tests = { "-42", "19.99", "0.001", "100 USD", 
+      string[] tests = { "$3", "-42", "19.99", "0.001", "100 USD", 
                          ".34", "0.34", "1,052.21", "$10.62", 
                          "+1.43", "-$0.23" };
 
@@ -45,6 +45,7 @@ public class Example
    }
 }
 // The example displays the following output:
+//       $3 is a currency value.
 //       -42 is a currency value.
 //       19.99 is a currency value.
 //       0.001 is not a currency value.
